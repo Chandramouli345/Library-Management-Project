@@ -1,4 +1,4 @@
-Enter Password: **********
+Enter Password: ********** (sql password)
 create database Bookstore;
 ----Here the database will be created----
 
