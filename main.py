@@ -34,7 +34,7 @@ class First:
         store_window.mainloop()
         
     def connect(self):
-        mydb=mysql.connector.connect(host="localhost",user="root",port=3306,password="Mouli$345",database="Bookstore")
+        mydb=mysql.connector.connect(host="localhost",user="root",port=3306,password="USE YOUR SQL PASSWORD",database="Bookstore")
         mycursor=mydb.cursor()
         Bookname=self.n_l.get()
         Author=self.a_l.get()
@@ -62,7 +62,7 @@ class First:
         enquiry_window.mainloop()
 
     def enquiry_data(self):
-        mydb = mysql.connector.connect(host="localhost", user="root", port=3306, password="Mouli$345",database="Bookstore")
+        mydb = mysql.connector.connect(host="localhost", user="root", port=3306, password="USE YOUR SQL PASSWORD",database="Bookstore")
         mycursor = mydb.cursor()
         bookname = self.b_l.get()
         author = self.q_l.get()
