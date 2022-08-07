@@ -1,0 +1,18 @@
+Enter Password: **********
+create database Bookstore;
+----Here the database will be created----
+
+create table storage(Bookname varchar(30), author varchar(20), quantity int));
+------ storage table will be created---
+
+create table enquiry_books(Bookname varchar(30), author varchar(20));
+----- Enquiry_books table will be created-----
+
+***after creating the databases and tables
+
+Run the Main Python file and store the books in databse by submitting**
+
+To see the tables:
+
+select * from storage;
+select * from enquiry_books; (commands to be written in sql)
